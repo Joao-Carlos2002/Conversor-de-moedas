@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/mint.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <section class="container">
+      <h3 id="valueDollar"></h3>
+      <section class="inputSection">
+        <div>
+          <label for="insertValue">$</label>
+          <input
+            type="text"
+            name="insertValue"
+            id="insertValue"
+            placeholder="Digite um valor em doláres"
+          />
+        </div>
+        <p id="result"></p>
+      </section>
+      <section class="resumeValues">
+        <p>1 dólar equivale a: R$4,85</p>
+        <p>100 dólares equivalem a: R$485,02</p>
+        <p>1000 dólares equivalem a: R$4.850,22</p>
+        <p>10000 dólares equivalem a: R$48.502,23</p>
+      </section>
+    </section>
+  </body>
+</html>
